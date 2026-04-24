@@ -1,0 +1,369 @@
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: local('PP Neue Montreal'), local('PPNeueMontreal'),
+       url('/fonts/PPNeueMontreal-Regular.woff2') format('woff2'),
+       url('/fonts/PPNeueMontreal-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: local('PP Neue Montreal Bold'), local('PPNeueMontreal-Bold'),
+       url('/fonts/PPNeueMontreal-Bold.woff2') format('woff2'),
+       url('/fonts/PPNeueMontreal-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  /* Prefer PP Neue Montreal if available; fall back to system fonts */
+  --sans: 'PP Neue Montreal', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'PP Neue Montreal', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1512px) {
+    font-size: 16px;
+  }
+}
+
+
+body {
+  margin: 0;
+}
+
+.main-area {
+  max-width: 1512px;
+}
+
+#root {
+  width: 1512px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding-top: 32px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.bottom {
+  text-align: right;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 80vh;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+  width: 460px;
+  font-size: 16px;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 460px;
+  font-size: 16px;
+  margin-bottom: 64px;
+  margin-right: 40px;
+}
+
+.main-hero-interaction-container {
+  position: relative;
+  font-weight: 500;
+}
+
+
+.container-4 {
+  position: absolute;
+  background-color: #515EF9;
+  color: white;
+  text-align: left;
+  padding-left: 32px;
+  width: 100%;
+  height: 64px auto;
+  border-radius: 20px;
+}
+
+.container-2 {
+  position: absolute;
+  top: -40px;
+  background-color: #5C7FE6;
+  color: white;
+  text-align: left;
+  padding-left: 32px;
+  width: 100%;
+  height: 64px auto;
+  border-radius: 20px 20px 0 0;
+}
+
+
+.container-3 {
+  position: absolute;
+  top: -82px;
+  z-index: -1;
+  background-color: #fafafa;
+  color: #333;
+  text-align: left;
+  padding-left: 32px;
+  width: 100%;
+  height: 64px auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-text {
+  display: flex;
+}
+
+.container-2, .container-3, .container-4 {
+  height: 64px;
+  transition: height 300ms ease;
+  overflow: hidden;
+}
+
+.container-2 img, .container-3 img, .container-4 img {
+  display: block;
+  width: 64px;
+  height: auto;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  opacity: 0;
+  transform: translateY(-8px) scale(0.98);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.container-2:hover, .container-3:hover, .container-4:hover {
+  height: 140px;
+}
+
+.allLogos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  background-color: #fafafa;
+  margin-top: 40px;
+  padding: 24px 24px;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+button {
+  padding: 10px;
+  background-color: #5C7FE6;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.textandCTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.CTAtext {
+  font-size: 16px;
+  text-align: left;
+}
+
+.CTA {
+  display: flex;
+  gap: 16px;
+}
+
+.top-layer {
+  display: flex;
+  max-width: 1512px;
+  gap: 16px;
+  margin: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+.headerAndBody {
+  margin-top: 40px;
+}
+
+.casestudyheader, .casestudybody {
+  text-align: left;
+}
+
+/* CaseStudy image constraints to prevent overflow */
+.top-layer .image img {
+  display: block;
+  width: 100%;       /* fill the column but don't exceed max-width */
+  max-width: 680px;  /* reduce GIF to fit; adjust as needed */
+  height: auto;
+  object-fit: contain;
+}
+
+/* Allow left/right columns to shrink inside the flex container */
+.top-left,
+.top-right {
+  flex: 1 1 0;
+  min-width: 0; /* critical to allow flex children to shrink */
+}
+
+.top-left {
+  width: 70%;
+}
+
+.top-right {
+  width: 30%;
+}
+
+.casestudyheader {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.casestudybody {
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+.bottom-layer {
+  display: flex;
+  gap: 16px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.layer1 {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.imageDiv {
+  margin-bottom: 24px;
+}
+
+video {
+  border-radius: 8px;
+}
+
+.Title, .bodyDiv {
+  text-align: left;
+}
+
+.Title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.left-header, .left-body {
+  text-align: left;
+  
+}
+
+.scroll {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 40px;
+  margin-top: 80px;
+  margin-right: 40px;
+}
+
+.right1 {
+  padding: 40px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 24px; /* each right1 will stick 24px from the top of the viewport */
+}
+
+/* Ensure the scroll container doesn't itself stick; align items to top */
+.scroll {
+  align-items: flex-start;
+}
+
+@media (max-width: 900px) {
+  .right1 {
+    position: static;
+    top: auto;
+  }
+}
+
+.left-header {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+
+.head {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.head, .bod {
+  text-align: left;
+}
