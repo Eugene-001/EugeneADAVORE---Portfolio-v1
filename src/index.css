@@ -236,7 +236,7 @@ button {
   margin-left: 40px;
   margin-right: 40px;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: stretch; /* Ensure children stretch to the same height */
 }
 
 .headerAndBody {
@@ -249,12 +249,16 @@ button {
 
 /* CaseStudy image constraints to prevent overflow */
 .top-layer .image img {
-  display: block;
-  width: 100%;       /* fill the column but don't exceed max-width */
-  max-width: 680px;  /* reduce GIF to fit; adjust as needed */
-  height: auto;
-  object-fit: contain;
+display: flex;
+flex: 1;
+overflow: hidden;
+max-width: 100%;
 }
+
+.top-layer .image {
+  height: 100%;
+}
+
 
 /* Allow left/right columns to shrink inside the flex container */
 .top-left,
@@ -264,11 +268,22 @@ button {
 }
 
 .top-left {
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  height: 100%;
+}
+
+.top-right .image {
+  flex: 1;
+  display: flex;
 }
 
 .top-right {
-  width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    height: 100%;
 }
 
 .casestudyheader {
@@ -441,4 +456,9 @@ img.imageImage {
   /* border: 1px solid #E0E0E0; */
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+}
+
+
+.test {
+  color: black;
 }

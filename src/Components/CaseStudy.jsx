@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function AutoPlayVideo({ src, poster, className, style }) {
     const ref = useRef(null);
@@ -51,21 +52,24 @@ function CaseStudy() {
     return (
         <div>
             <div className="top-layer">
-                <div className="top-left">
-                    <div className="image">
-                        <img src="Media/SLICE.gif" alt="" />
-                    </div>
-
-                    <div className="headerAndBody">
-                        <div className="casestudyheader">
-                            SLICE FINANCE
+                <Link to="/pages/SliceDetails" style={{ textDecoration: 'none', color: 'inherit' }}>
+                    <div className="top-left">
+                        <div className="image">
+                            <img src="Media/SLICE.gif" alt="" />
                         </div>
-                        <div className="casestudybody">
-                            Slice is a crowdfunding product that allows businesses to raise funds while at the same time helping individuals to invest and make money for themselves.
+
+                        <div className="headerAndBody">
+                            <div className="casestudyheader">
+                                SLICE FINANCE
+                            </div>
+                            <div className="casestudybody">
+                                Slice is a crowdfunding product that allows businesses to raise funds while at the same time helping individuals to invest and make money for themselves.
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Link>
 
+                <Link to="/pages/Shelf21Details" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className="top-right">
                     <div className="image">
                         <img src="Media/Shelf21.gif" alt="" />
@@ -79,7 +83,8 @@ function CaseStudy() {
                             An Edu-tech platform built to monitor school and student activities as well as an app <br />for parents to track progress.
                         </div>
                     </div>
-                </div> 
+                </div>
+                </Link>
             </div>
 
             <div className="bottom-layer">

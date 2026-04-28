@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom"
+
 function Navigation (){
     return (
         <div className="Navigation">
-            <div className="left">
-                Eugene Adavore.
-            </div>
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <div className="left">
+                    Eugene Adavore.
+                </div>
+            </Link>
 
             <div className="nav-right">
                 <div className="top">Product Design Engineer.</div>
