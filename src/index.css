@@ -499,7 +499,7 @@ img.imageImage {
 .image-display {
   background-color: #fafafa;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: row;
   gap: 16px;
@@ -737,4 +737,116 @@ img.imageImage {
 .lastbody, .right-body {
   font-size: 16px;
   line-height: 180%;
+}
+
+.the-problem {
+  display: flex;
+  gap: 80px;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.left-problem {
+  text-align: left;
+}
+
+.problem-header {
+  font-weight: 500;
+}
+
+.right-problem {
+  padding: 24px;
+  background-color: #515EF9;
+  border-radius: 16px;
+}
+
+.thesolution {
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding-top: 80px;
+}
+
+.solution-left {
+  text-align: left;
+}
+
+.head-solution {
+  font-weight: 500;
+}
+
+.web-img video {
+  width: 70%;
+}
+
+.web-img {
+  padding: 40px;
+  background-color: #fafafa;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.new-purple {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.pur-header {
+  font-weight: 500;
+}
+
+.purp-left, .purp-right {
+  padding: 24px;
+  height: 500px;
+  background-color: #7444EE;
+  border-radius: 16px;
+}
+
+.body {
+  line-height: 180%;
+}
+
+.product-scrope {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background-color: #515EF9;
+  color: white;
+  border-radius: 16px;
+  padding: 40px;
+  height: 602px;
+  overflow-y: hidden;
+}
+
+.scopeleft {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+}
+
+.scopehead {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 600;
 }
