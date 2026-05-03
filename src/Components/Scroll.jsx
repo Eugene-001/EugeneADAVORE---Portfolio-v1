@@ -3,7 +3,7 @@ function Scroll() {
         <div className="scroll">
             <div className="left">
                 <div className="left-header">
-                    Building across Industries
+                    BUILDING ACROSS INDUSTRIES
                 </div>
 
                 <div className="left-body">

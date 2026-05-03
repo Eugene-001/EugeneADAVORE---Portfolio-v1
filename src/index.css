@@ -215,7 +215,9 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
 }
 
 .CTAtext {
@@ -232,7 +234,7 @@ button {
   display: flex;
   max-width: 1512px;
   gap: 16px;
-  margin: 80px;
+  margin: 20px;
   margin-left: 40px;
   margin-right: 40px;
   box-sizing: border-box;
@@ -299,10 +301,32 @@ max-width: 100%;
 
 .bottom-layer {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   margin-top: 80px;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.this-layer{
+  text-align: left;
+  font-weight: 600;
+}
+
+.layerbody {
+  text-align: left;
+}
+
+.website-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thebuilds {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
 }
 
 .layer1 {
@@ -813,7 +837,7 @@ img.imageImage {
 
 .purp-left, .purp-right {
   padding: 24px;
-  height: 500px;
+  height: 524px;
   background-color: #7444EE;
   border-radius: 16px;
 }
@@ -833,7 +857,7 @@ img.imageImage {
   color: white;
   border-radius: 16px;
   padding: 40px;
-  height: 602px;
+  height: 500px;
   overflow-y: hidden;
 }
 
@@ -849,4 +873,25 @@ img.imageImage {
   font-size: 18px;
   margin-bottom: 8px;
   font-weight: 600;
+}
+
+.impactAndOutcomes {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.impactTitle {
+  font-weight: 500;
+}
+
+.addon {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
 }

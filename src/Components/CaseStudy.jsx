@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 function AutoPlayVideo({ src, poster, className, style }) {
     const ref = useRef(null);
@@ -88,46 +89,67 @@ function CaseStudy() {
             </div>
 
             <div className="bottom-layer">
-                <div className="layer1">
-                    <div className="imageDiv">
-                        <AutoPlayVideo src="/Media/Synthera.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div className="website-titles">
+                    <div className="forwebsite">
+                        <div className="this-layer">
+                            WEBSITES AND LANDING PAGES
+                        </div>
+
+                        <div className="layerbody">
+                            See some of the website and landing page designs I have worked on.
+                        </div>
                     </div>
-                    <div className="titleDiv">
-                        <div className="Title">
-                            SYNTHERA FELLOWSHIP
-                        </div>
-                        <div className="bodyDiv">
-                            Landing page for Synthera Fellowship.
-                        </div>
+
+                    <div className="itsbutton">
+                       <Button text="View Websites"/>
                     </div>
                 </div>
 
-                <div className="layer1">
-                    <div className="imageDiv">
-                        <AutoPlayVideo src="/Media/Ledger.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-                    </div>
-                    <div className="titleDiv">
-                        <div className="Title">
-                            LEDGER
-                        </div>
-                        <div className="bodyDiv">
-                            Landing page for Ledger.
-                        </div>
-                    </div>
-                </div>
+                <div className="thebuilds">
 
-                <div className="layer1">
-                    <div className="imageDiv">
-                        <AutoPlayVideo src="/Media/Flowcheck.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-                    </div>
-                    <div className="titleDiv">
-                        <div className="Title">
-                            FLOWCHECK
+                    <div className="layer1">
+                        <div className="imageDiv">
+                            <AutoPlayVideo src="/Media/Synthera.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                         </div>
-                        <div className="bodyDiv">
-                            Landing page for Flowcheck.
+                        <div className="titleDiv">
+                            <div className="Title">
+                                SYNTHERA FELLOWSHIP
+                            </div>
+                            <div className="bodyDiv">
+                                Landing page for Synthera Fellowship.
+                            </div>
                         </div>
                     </div>
+
+                    <div className="layer1">
+                        <div className="imageDiv">
+                            <AutoPlayVideo src="/Media/Ledger.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                        </div>
+                        <div className="titleDiv">
+                            <div className="Title">
+                                LEDGER
+                            </div>
+                            <div className="bodyDiv">
+                                Landing page for Ledger.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="layer1">
+                        <div className="imageDiv">
+                            <AutoPlayVideo src="/Media/Flowcheck.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                        </div>
+                        <div className="titleDiv">
+                            <div className="Title">
+                                FLOWCHECK
+                            </div>
+                            <div className="bodyDiv">
+                                Landing page for Flowcheck.
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

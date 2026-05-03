@@ -8,8 +8,8 @@ function TextandCTA() {
             </div>
 
             <div className="CTA">
-                <Button />
-                <Button />
+                <Button text="Get in touch"/>
+                <Button text="My Resume"/>
             </div>
         </div>
     )

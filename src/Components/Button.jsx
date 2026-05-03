@@ -1,7 +1,7 @@
-function Button(){
+function Button({text}){
     return (
         <div>
-            <button>Get in touch</button>
+            <button>{text}</button>
         </div>
     )
 }
