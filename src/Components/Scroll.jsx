@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Scroll() {
     return (
         <div className="scroll">
@@ -28,36 +30,38 @@ function Scroll() {
                     </div>
                 </div>
 
-                <div className="right1">
+                <div className="right2">
                     <div className="rightImg">
                         <img src="Media/right2..svg" alt="" />
                     </div>
 
                     <div className="headBody">
                         <div className="head">
-                            FINANCE
+                            CAPTSTONE
                         </div>
 
                         <div className="bod">
-                            See the projects designed for the financial technology ecosystem -  SLICE, SLOT Finance, Simplified Payroll.
+                            An education platform to help intending product managers get a better understanding of the work environment of fulltime product managers.
                         </div>
                     </div>
                 </div>
 
-                <div className="right1">
-                    <div className="rightImg">
-                        <img src="Media/right3.svg" alt="" />
-                    </div>
-
-                    <div className="headBody">
-                        <div className="head">
-                            FINANCE
+                <div className="right3">
+                   <Link to="/Pages/NJFP" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="rightImg">
+                            <img src="Media/right3.svg" alt="" />
                         </div>
 
-                        <div className="bod">
-                            See the projects designed for the financial technology ecosystem -  SLICE, SLOT Finance, Simplified Payroll.
+                        <div className="headBody">
+                            <div className="head">
+                                UNDP NIGERIA - NJFP 2.0
+                            </div>
+
+                            <div className="bod">
+                                Also see other projects designed for the Nigerian Government and Associated projects - KDBS, NNVS, HEFA.
+                            </div>
                         </div>
-                    </div>
+                   </Link>
                 </div>
             </div>
         </div>

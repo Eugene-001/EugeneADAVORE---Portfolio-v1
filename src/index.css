@@ -321,6 +321,7 @@ max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .thebuilds {
@@ -378,6 +379,25 @@ img {
   top: 24px; /* each right1 will stick 24px from the top of the viewport */
 }
 
+.right2 {
+  padding: 40px;
+  background-color: #515EF9;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 24px; 
+}
+
+.right3 {
+  padding: 40px;
+  background-color: #333;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 24px; 
+}
 /* Ensure the scroll container doesn't itself stick; align items to top */
 .scroll {
   align-items: flex-start;
@@ -894,4 +914,111 @@ img.imageImage {
   display: flex;
   justify-content: end;
   margin-top: 40px;
+}
+
+.landing1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.landing1 video {
+  width: 80%;
+}
+
+.firstGIF {
+  margin-top: 40px;
+}
+
+.firstGIF img {
+  width: 95%;
+}
+
+.problemAndSolution {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.problemImage video {
+  width: 100%;
+}
+
+.Problembit {
+  width: 50%;
+  padding: 40px;
+  background-color: #fafafa;
+  width: 696px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.T1 {
+  text-align: left;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.T2 {
+  text-align: left;
+}
+
+.Problembit2 {
+  text-align: left;
+  width: 50%;
+  padding: 40px;
+  background-color: #fafafa;
+  width: 696px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.problemImage2 img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.howitworks {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-right: 40px;
+  padding: 32px;
+  border-radius: 16px;
+  color: white
+}
+
+.worksTitle {
+  font-weight: 500;
+}
+
+.organisation, .reflections {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #fafafa;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.orgtitle, .reftitle {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.orgbody, .refbody {
+  line-height: 180%;
 }

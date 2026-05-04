@@ -90,67 +90,71 @@ function CaseStudy() {
 
             <div className="bottom-layer">
 
-                <div className="website-titles">
-                    <div className="forwebsite">
-                        <div className="this-layer">
-                            WEBSITES AND LANDING PAGES
+                <Link to="/Pages/Landingpages" style={{textDecoration: "none", color: "inherit"}}>
+                
+                    <div className="website-titles">
+                        <div className="forwebsite">
+                            <div className="this-layer">
+                                WEBSITES AND LANDING PAGES
+                            </div>
+
+                            <div className="layerbody">
+                                See some of the website and landing page designs I have worked on.
+                            </div>
                         </div>
 
-                        <div className="layerbody">
-                            See some of the website and landing page designs I have worked on.
+                        <div className="itsbutton">
+                        <Button text="View Websites"/>
                         </div>
                     </div>
 
-                    <div className="itsbutton">
-                       <Button text="View Websites"/>
+                    <div className="thebuilds">
+
+                        <div className="layer1">
+                            <div className="imageDiv">
+                                <AutoPlayVideo src="/Media/synthera.mp4" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                            </div>
+                            <div className="titleDiv">
+                                <div className="Title">
+                                    SYNTHERA FELLOWSHIP
+                                </div>
+                                <div className="bodyDiv">
+                                    Landing page for Synthera Fellowship.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="layer1">
+                            <div className="imageDiv">
+                                <AutoPlayVideo src="/Media/Ledger.mp4" poster="/Media/Ledger.mp4" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                            </div>
+                            <div className="titleDiv">
+                                <div className="Title">
+                                    LEDGER
+                                </div>
+                                <div className="bodyDiv">
+                                    Landing page for Ledger.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="layer1">
+                            <div className="imageDiv">
+                                <AutoPlayVideo src="/Media/Flowcheck.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                            </div>
+                            <div className="titleDiv">
+                                <div className="Title">
+                                    FLOWCHECK
+                                </div>
+                                <div className="bodyDiv">
+                                    Landing page for Flowcheck.
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
-
-                <div className="thebuilds">
-
-                    <div className="layer1">
-                        <div className="imageDiv">
-                            <AutoPlayVideo src="/Media/Synthera.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-                        </div>
-                        <div className="titleDiv">
-                            <div className="Title">
-                                SYNTHERA FELLOWSHIP
-                            </div>
-                            <div className="bodyDiv">
-                                Landing page for Synthera Fellowship.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="layer1">
-                        <div className="imageDiv">
-                            <AutoPlayVideo src="/Media/Ledger.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-                        </div>
-                        <div className="titleDiv">
-                            <div className="Title">
-                                LEDGER
-                            </div>
-                            <div className="bodyDiv">
-                                Landing page for Ledger.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="layer1">
-                        <div className="imageDiv">
-                            <AutoPlayVideo src="/Media/Flowcheck.mp4" poster="/Media/Slice.svg" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-                        </div>
-                        <div className="titleDiv">
-                            <div className="Title">
-                                FLOWCHECK
-                            </div>
-                            <div className="bodyDiv">
-                                Landing page for Flowcheck.
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                
+                </Link>
             </div>
         </div>
     )

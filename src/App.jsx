@@ -11,6 +11,8 @@ import Footer from "./Components/Footer"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import SliceDetails from "./Pages/SliceDetails"
 import Shelf21Details from "./Pages/Shelf21Details"
+import Landingpages from "./Pages/Landingpages"
+import NJFP from "./Pages/NJFP"
 
 
 
@@ -35,8 +37,15 @@ function App() {
               </>
              } />
              <Route path="/" element={<Navigation />} />
+             
              <Route path="Pages/SliceDetails" element={<SliceDetails />} />
-             <Route path="Pages/Shelf21Details" element={<Shelf21Details />} />
+
+             <Route path="Pages/Shelf21Details" 
+             element={<Shelf21Details />} />
+            
+            <Route path="Pages/Landingpages" element={<Landingpages />} />
+
+            <Route path="Pages/NJFP" element={<NJFP />} />
           </Routes>
       </Router>
   )
