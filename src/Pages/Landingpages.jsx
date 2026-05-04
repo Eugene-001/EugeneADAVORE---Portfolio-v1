@@ -7,7 +7,7 @@ function Landingpages () {
            <div className="landingpageVideos">
 
             <div className="landing1">
-                <video src="/Media/synthera.mp4" autoPlay muted></video>
+                <video src="/Media/newsynthera.mp4" autoPlay muted></video>
             </div>
 
             <div className="landing1">
