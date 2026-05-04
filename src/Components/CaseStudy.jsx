@@ -112,7 +112,7 @@ function CaseStudy() {
 
                         <div className="layer1">
                             <div className="imageDiv">
-                                <AutoPlayVideo src="/Media/synthera.mp4" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                                <AutoPlayVideo src="/Media/newsynthera.mp4" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                             </div>
                             <div className="titleDiv">
                                 <div className="Title">
