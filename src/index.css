@@ -361,6 +361,12 @@ img {
   
 }
 
+.left {
+  position: sticky;
+  top: 40px;
+  align-self: flex-start;
+}
+
 .scroll {
   display: flex;
   flex-direction: row;
@@ -370,34 +376,52 @@ img {
   margin-right: 40px;
 }
 
-.right1 {
-  padding: 40px;
-  background-color: #fafafa;
-  border-radius: 12px;
-  margin-bottom: 40px;
-  position: sticky;
-  top: 24px; /* each right1 will stick 24px from the top of the viewport */
-}
 
-.right2 {
-  padding: 40px;
-  background-color: #515EF9;
-  color: white;
-  border-radius: 12px;
-  margin-bottom: 40px;
-  position: sticky;
-  top: 24px; 
-}
 
 .right3 {
   padding: 40px;
-  background-color: #333;
-  color: white;
+  color: #333;
   border-radius: 12px;
   margin-bottom: 40px;
   position: sticky;
   top: 24px; 
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
+
+.rightImg {
+  background-color: #333;
+  color: white;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  
+}
+
+.headBody {
+  background-color: #333;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.butt {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+
+
+
+
+
+
 /* Ensure the scroll container doesn't itself stick; align items to top */
 .scroll {
   align-items: flex-start;
@@ -418,8 +442,6 @@ img {
 
 
 .head {
-  margin-top: 16px;
-  margin-bottom: 8px;
   font-weight: 600;
 }
 
@@ -1020,5 +1042,10 @@ img.imageImage {
 }
 
 .orgbody, .refbody {
+  line-height: 180%;
+}
+
+.worksbody {
+  margin-top: 8px;
   line-height: 180%;
 }

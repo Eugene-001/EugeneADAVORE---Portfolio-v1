@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 function Scroll() {
     return (
@@ -14,42 +15,11 @@ function Scroll() {
             </div>
 
             <div className="right">
-                <div className="right1">
-                    <div className="rightImg">
-                        <img src="Media/right1.svg" alt="" />
-                    </div>
-
-                    <div className="headBody">
-                        <div className="head">
-                            FINANCE
-                        </div>
-
-                        <div className="bod">
-                            See the projects designed for the financial technology ecosystem -  SLICE, SLOT Finance, Simplified Payroll.
-                        </div>
-                    </div>
-                </div>
-
-                <div className="right2">
-                    <div className="rightImg">
-                        <img src="Media/right2..svg" alt="" />
-                    </div>
-
-                    <div className="headBody">
-                        <div className="head">
-                            CAPTSTONE
-                        </div>
-
-                        <div className="bod">
-                            An education platform to help intending product managers get a better understanding of the work environment of fulltime product managers.
-                        </div>
-                    </div>
-                </div>
 
                 <div className="right3">
                    <Link to="/Pages/NJFP" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="rightImg">
-                            <img src="Media/right3.svg" alt="" />
+                            <img src="Media/nfjpimage.svg" alt="" />
                         </div>
 
                         <div className="headBody">
@@ -60,9 +30,44 @@ function Scroll() {
                             <div className="bod">
                                 Also see other projects designed for the Nigerian Government and Associated projects - KDBS, NNVS, HEFA.
                             </div>
+
+                            <div className="butt">
+                                <Button text="View more"/>
+                            </div>
                         </div>
                    </Link>
                 </div>
+
+                <div className="right2">
+                   <Link to="/Pages/NJFP" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="rightImg2">
+                            <img src="Media/SLOT..svg" alt="" />
+                        </div>
+
+                        <div className="headBody2">
+                            <div className="head">
+                               SLOT FINANCE
+                            </div>
+
+                            <div className="bod2">
+                                Also see other projects designed for the Nigerian Government and Associated projects - KDBS, NNVS, HEFA.
+                            </div>
+
+                          
+                        </div>
+                   </Link>
+                </div>
+
+        
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     )
