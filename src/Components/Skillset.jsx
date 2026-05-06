@@ -8,7 +8,7 @@ function Skillset() {
 
                 <div className="CD">
                     <div className="cardTitle">
-                         DESIGN
+                         DESIGNER
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@ function Skillset() {
                 </div>
 
                 <div className="cardTitle">
-                    ENGINEERING
+                    ENGINEER
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ function Skillset() {
                 </div>
 
                 <div className="cardTitle">
-                    MARKETING
+                    COMMUNITY DEVELOPER
                 </div>
             </div>
         </div>

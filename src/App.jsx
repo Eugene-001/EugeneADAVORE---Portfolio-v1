@@ -14,6 +14,7 @@ import SliceDetails from "./Pages/SliceDetails"
 import Shelf21Details from "./Pages/Shelf21Details"
 import Landingpages from "./Pages/Landingpages"
 import NJFP from "./Pages/NJFP"
+import BeyondPixel from "./Components/BeyondPixel"
 
 
 
@@ -34,6 +35,7 @@ function App() {
               < Scroll />
               < Aboutme />
               < Skillset />
+              < BeyondPixel />
               < Footer />
             </div>
               </>

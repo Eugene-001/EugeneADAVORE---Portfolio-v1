@@ -519,6 +519,7 @@ img {
   margin-left: 32%;
   margin-top: 48px;
   margin-bottom: 48px;
+  margin-right: 40px;
 }
 
 .about {
@@ -1118,4 +1119,38 @@ img.imageImage {
 .worksbody {
   margin-top: 8px;
   line-height: 180%;
+}
+
+.beyondPixellayer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #333;
+  padding: 40px;
+  border-radius: 16px;
+  color: white;
+}
+
+.topbeyond {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.beyondTitle {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.beyondleft {
+  width: 60%;
+}
+
+.bottombeyond video {
+  width: 100%;
 }
