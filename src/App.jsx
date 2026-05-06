@@ -5,6 +5,7 @@ import StartupLogo from "./Components/StartupLogo"
 import TextandCTA from "./Components/TextandCTA"
 import CaseStudy from "./Components/CaseStudy"
 import Scroll from "./Components/Scroll"
+import ScrollToTop from "./Components/ScrollToTop"
 import Aboutme from "./Components/Aboutme"
 import Skillset from "./Components/Skillset"
 import Footer from "./Components/Footer"
@@ -19,7 +20,8 @@ import NJFP from "./Pages/NJFP"
 function App() {
 
   return (
-      <Router>
+       <Router>
+          <ScrollToTop/>
          < Navigation/>
           <Routes>
             <Route path="/" element= {

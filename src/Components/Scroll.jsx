@@ -16,47 +16,76 @@ function Scroll() {
 
             <div className="right">
 
-                <div className="right3">
-                   <Link to="/Pages/NJFP" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <div className="rightImg">
-                            <img src="Media/nfjpimage.svg" alt="" />
-                        </div>
 
-                        <div className="headBody">
-                            <div className="head">
-                                UNDP NIGERIA - NJFP 2.0
+
+
+                <div className="firstCase">
+                            <div className="caseimage">
+                                <img src="/Media/right3.svg" alt="" />
                             </div>
 
-                            <div className="bod">
-                                Also see other projects designed for the Nigerian Government and Associated projects - KDBS, NNVS, HEFA.
-                            </div>
+                            <div className="caseText">
+                                <div className="CaseTitle">
+                                    UNDP NIGERIA - NJFP 2.0
+                                </div>
 
-                            <div className="butt">
-                                <Button text="View more"/>
+                                <div className="caseBody">
+                                    Also see other projects designed for the Nigerian Government and Associated projects - KDBS, NNVS, HEFA.
+                                </div>
+
+                                <Link to="/Pages/NJFP" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    <div className="button">
+                                        <Button text="View Casestudy"/>
+                                    </div>
+                                </Link>
+
                             </div>
-                        </div>
-                   </Link>
                 </div>
 
-                <div className="right2">
-                   <Link to="/Pages/NJFP" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <div className="rightImg2">
-                            <img src="Media/SLOT..svg" alt="" />
+
+
+
+                    <div className="secondCase">
+                        <div className="caseimage2">
+                            <img src="/Media/SLOT..svg" alt="" />
                         </div>
 
-                        <div className="headBody2">
-                            <div className="head">
-                               SLOT FINANCE
+                        <div className="caseText2">
+                            <div className="CaseTitle2">
+                                FINANCE
                             </div>
 
-                            <div className="bod2">
-                                Also see other projects designed for the Nigerian Government and Associated projects - KDBS, NNVS, HEFA.
+                            <div className="caseBody2">
+                                See the projects designed for the financial technology ecosystem -  SLICE, SLOT Finance, Simplified Payroll.
                             </div>
 
-                          
+                        
                         </div>
-                   </Link>
-                </div>
+                    </div>
+
+                
+                    <div className="secondCase">
+                        <div className="caseimage2">
+                            <img src="/Media/capstone.svg" alt="" />
+                        </div>
+
+                        <div className="caseText2">
+                            <div className="CaseTitle2">
+                                SAAS
+                            </div>
+
+                            <div className="caseBody2">
+                                See the projects designed for Softwares as a Service (SAAS) and associated products - Abache, Capstone, Shelf 21
+                            </div>
+
+                    
+
+                        
+                        </div>
+                    </div>
+            
+
+      
 
         
 

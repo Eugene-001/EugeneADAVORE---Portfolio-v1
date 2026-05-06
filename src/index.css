@@ -91,7 +91,7 @@ body {
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
-  height: 80vh;
+  height: 90vh;
 }
 
 .hero-left {
@@ -367,6 +367,13 @@ img {
   align-self: flex-start;
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+
 .scroll {
   display: flex;
   flex-direction: row;
@@ -376,27 +383,70 @@ img {
   margin-right: 40px;
 }
 
-
-
-.right3 {
-  padding: 40px;
-  color: #333;
-  border-radius: 12px;
-  margin-bottom: 40px;
-  position: sticky;
-  top: 24px; 
-  pointer-events: none;
+.firstCase {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  position: sticky;
+  top: 40px;
+  align-self: flex-start;
 }
 
-.rightImg {
-  background-color: #333;
-  color: white;
-  border-radius: 16px;
-  margin-bottom: 16px;
-  
+.caseimage {
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+}
+
+.caseimage img {
+  width: 100%;
+}
+
+.caseText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 24px 40px;
+  text-align: left;
+  border: 1px solid #eaeaea;
+}
+
+.CaseTitle {
+  font-weight: 600;
+}
+
+.CaseTitle2 {
+  font-weight: 600;
+}
+
+.secondCase {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: sticky;
+  top: 40px;
+  align-self: flex-start;
+}
+
+.caseimage2 {
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.caseText2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 24px 40px;
+  text-align: left;
+  border: 1px solid #eaeaea;
 }
 
 .headBody {
@@ -467,8 +517,12 @@ img {
   display: flex;
   justify-content: center;
   margin-left: 32%;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.about {
+  font-weight: 600;
 }
 
 .skillCard {
@@ -476,18 +530,32 @@ img {
   margin-left: 40px;
   margin-right: 40px;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 16px;
   margin-bottom: 40px;
 }
 
+.imagepad {
+  height: 700px;
+}
+.imagepad img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .card1 {
   width: 100%;
+  height: 100%;
   padding: 16px 16px 0 16px;
   background-color: #515EF9;
   border-radius: 16px;
   border: 1px solid #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
 }
 
 .CD {
@@ -510,6 +578,8 @@ img {
 img.imageImage {
   opacity: 0.9; /* fallback */
   transition: opacity 220ms ease;
+  width: 100%;
+  
 }
 
 .Footer {

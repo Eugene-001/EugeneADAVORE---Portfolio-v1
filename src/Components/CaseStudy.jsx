@@ -90,7 +90,6 @@ function CaseStudy() {
 
             <div className="bottom-layer">
 
-                <Link to="/Pages/Landingpages" style={{textDecoration: "none", color: "inherit"}}>
                 
                     <div className="website-titles">
                         <div className="forwebsite">
@@ -103,9 +102,12 @@ function CaseStudy() {
                             </div>
                         </div>
 
-                        <div className="itsbutton">
-                        <Button text="View Websites"/>
-                        </div>
+                        
+                      <Link to="/Pages/Landingpages" style={{textDecoration: "none", color: "inherit"}}>
+                            <div className="itsbutton">
+                                <Button text="View Websites"/>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="thebuilds">
@@ -154,7 +156,7 @@ function CaseStudy() {
 
                     </div>
                 
-                </Link>
+                
             </div>
         </div>
     )
