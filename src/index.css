@@ -160,12 +160,6 @@ body {
   display: flex;
 }
 
-.container-2, .container-3, .container-4 {
-  height: 64px;
-  transition: height 300ms ease;
-  overflow: hidden;
-}
-
 .container-2 img, .container-3 img, .container-4 img {
   display: block;
   width: 64px;
@@ -176,10 +170,6 @@ body {
   opacity: 0;
   transform: translateY(-8px) scale(0.98);
   transition: opacity 300ms ease, transform 300ms ease;
-}
-
-.container-2:hover, .container-3:hover, .container-4:hover {
-  height: 140px;
 }
 
 .allLogos {

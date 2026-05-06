@@ -17,8 +17,6 @@ function Hero () {
             <div className="hero-right">
                 <div className="main-hero-interaction-container">
 
-
-
                     <div id="box" className="container-3">
                         <p className="card-text">WEB APP DEVELOPMENT</p>
                         <img src="Components/Media/Development.svg" alt="" />
