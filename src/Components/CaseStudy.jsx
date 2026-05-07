@@ -51,7 +51,7 @@ function AutoPlayVideo({ src, poster, className, style }) {
 
 function CaseStudy() {
     return (
-        <div>
+        <div className="casestudy">
             <div className="top-layer">
                 <Link to="/pages/SliceDetails" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="top-left">
@@ -104,9 +104,11 @@ function CaseStudy() {
 
                         
                       <Link to="/Pages/Landingpages" style={{textDecoration: "none", color: "inherit"}}>
+                        <div className="websitebtn">
                             <div className="itsbutton">
                                 <Button text="View Websites"/>
                             </div>
+                        </div>
                         </Link>
                     </div>
 

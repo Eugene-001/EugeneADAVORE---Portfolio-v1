@@ -5,7 +5,11 @@ function Navigation (){
         <div className="Navigation">
             <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className="left">
-                    Eugene Adavore.
+                    <span className="fullname">
+                        Eugene Adavore.
+                    </span>
+
+                    <span className="nav-mobile">Eugene A.</span>
                 </div>
             </Link>
 
