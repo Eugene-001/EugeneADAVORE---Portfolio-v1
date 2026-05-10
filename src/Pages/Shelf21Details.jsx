@@ -6,7 +6,7 @@ function Shelf21Details() {
 
 
     return (
-        <div>
+        <div className="mainSLICE">
             <div className="top-section">
                 <div className="slice-left">
                     <div className="header-year">

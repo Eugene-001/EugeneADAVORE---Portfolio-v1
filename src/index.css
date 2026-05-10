@@ -80,6 +80,11 @@ body {
   padding-right: 40px;
 }
 
+.mainSLICE {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .bottom {
   text-align: right;
 }
@@ -593,9 +598,7 @@ img.imageImage {
 .top-section {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+
 }
 
 .slice-left {
@@ -604,6 +607,7 @@ img.imageImage {
 
 .header-year, .slice-description {
   text-align: left;
+  width: 100%;
 }
 
 .header-year {
@@ -941,7 +945,7 @@ img.imageImage {
 
 .purp-left, .purp-right {
   padding: 24px;
-  height: 524px;
+  height: auto;
   background-color: #7444EE;
   border-radius: 16px;
 }
@@ -1171,6 +1175,11 @@ img.imageImage {
       padding-right: 16px;
     }
 
+    .mainSLICE {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
     .hero-left {
       width: 100%;
       margin-top: 170%;
@@ -1206,6 +1215,10 @@ img.imageImage {
       display: none;
     }
 
+    .video-layer video {
+      width: 100%;
+    }
+
     .textandCTA {
       display: flex;
       flex-direction: column;
@@ -1222,7 +1235,7 @@ img.imageImage {
     .top-layer {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 24px;
       
     }
 
@@ -1444,26 +1457,33 @@ NJFP Responsive Design. */
   flex-direction: column;
   justify-content: center;
   font-size: 14px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 24px;
 }
 
  .top-section, .firstGIF, .problemAndSolution, .howitworks, .organisation, .reflections {
-        margin-left: 40px !important;
-        margin-right: 40px !important;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
         width: calc(100% - 80px) !important; /* Exact fit inside the screen */
         box-sizing: border-box;
     }
 
-
+ 
 .header-year, .year, .slice-description {
   font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .firstGIF 
 {
  display: flex;
  justify-content: center;
- margin-left: 40px;
- 
+ margin-left: 0 !important;
+ margin-right: 0 !important;
+ width: 100% !important;
+ box-sizing: border-box;
 }
 
 .firstGIF img {
@@ -1474,6 +1494,10 @@ NJFP Responsive Design. */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
 }
 
 .Problembit {
@@ -1497,6 +1521,10 @@ NJFP Responsive Design. */
 .howitworks {
   display: flex;
   flex-direction: column;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
 }
 
 .reflections, .howitworks, .problemAndSolution {
@@ -1509,6 +1537,17 @@ NJFP Responsive Design. */
 
 .organisation {
   margin-bottom: 20px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.reflections {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
 }
 
 .main-hero-interaction-container {
@@ -1534,6 +1573,18 @@ NJFP Responsive Design. */
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.slice-left,
+.slice-right {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header-year {
@@ -1544,26 +1595,39 @@ NJFP Responsive Design. */
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .the-problem {
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .thesolution {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-left: 0;
+  margin-right: 0;
   font-size: 14px;
   padding: 24px;
+  width: 100%;
 }
 
 .new-purple {
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .product-scrope {
@@ -1574,13 +1638,16 @@ NJFP Responsive Design. */
   font-size: 14px;
   margin-left: 0;
   margin-right: 0;
-  padding: 24px;
   width: 100%;
   box-sizing: border-box;
 }
 
 .impactAndOutcomes {
   font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 }
