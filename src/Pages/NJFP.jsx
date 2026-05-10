@@ -1,13 +1,13 @@
 
 function NJFP () {
     return (
-        <div>
+        <div className="main">
             <div className="top-section">
                 <div className="slice-left">
                     <div className="header-year">
                         <div className="header">
                             UNDP - Nigeria | NJFP 2.0
-                        </div>
+                         </div>
 
                         <div className="year">
                             PRODUCT DESIGN | 2026
@@ -18,8 +18,6 @@ function NJFP () {
                         The Nigeria Jubilee Fellows Programme (NJFP) is a national youth employment and workforce development initiative led by the Federal Government of Nigeria, funded by the European Union, and implemented by the United Nations Development Programme.
                     </div>
                 </div>
-
-
             </div>
 
             <div className="firstGIF">
@@ -97,7 +95,6 @@ function NJFP () {
                         NJFP bridges the gap between education and employment by placing graduates into real work environments, supported by mentorship and structured learning.
 To make this work at scale, I designed the core experience flows for both participants (fellows) and host organizations, ensuring that the matching process is clear, efficient, and reliable for both sides.
 For participants, I designed flows that guide them from onboarding through profile creation, eligibility checks, and matching helping them clearly present their skills and transition smoothly into opportunities.
-For host organizations, I designed flows that enable them to register, define their talent needs, and review matched candidates making it easier to identify and onboard suitable fellows without unnecessary friction.
                     </div>
                 </div>
 
@@ -114,9 +111,7 @@ For host organizations, I designed flows that enable them to register, define th
                 <div className="orgbody">
                     The entirety of the system was designed built to cater for above 20,000 users and considering the tight timeline, quality and clarity was not compromised to meet the needs of the varying user classes. <br />
 I Created a cohesive dashboard system that reduces user confusion and overlaps.
-Streamlined complex program management into visually guided workflows. <br />
-Enhanced brand credibility through a consistent design language across all modules.
-Improved team alignment developers could easily implement due to standardized components.
+Streamlined complex program management into visually guided workflows. 
                 </div>
             </div>
 
@@ -128,9 +123,7 @@ Improved team alignment developers could easily implement due to standardized co
                 <div className="refbody">
                     The entirety of the system was designed built to cater for above 20,000 users and considering the tight timeline, quality and clarity was not compromised to meet the needs of the varying user classes. <br />
 I Created a cohesive dashboard system that reduces user confusion and overlaps.
-Streamlined complex program management into visually guided workflows. <br />
-Enhanced brand credibility through a consistent design language across all modules.
-Improved team alignment developers could easily implement due to standardized components.
+Streamlined complex program management into visually guided workflows. 
                 </div>
             </div>
         </div>
