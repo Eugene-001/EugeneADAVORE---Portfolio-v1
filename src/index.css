@@ -1164,6 +1164,7 @@ img.imageImage {
       display: flex;
       flex-direction: column;
       width: 100%;
+      justify-content: flex-end;
     }
 
     .Navigation {
@@ -1182,8 +1183,7 @@ img.imageImage {
 
     .hero-left {
       width: 100%;
-      margin-top: 140%;
-     
+      margin-top: 0;
     }
     .Navigation {
       width: 100%;
