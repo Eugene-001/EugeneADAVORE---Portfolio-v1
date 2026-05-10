@@ -1166,12 +1166,14 @@ img.imageImage {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: auto;
+      width: 100%;
+      padding-left: 16px;
+      padding-right: 16px;
     }
 
     .hero-left {
       width: 100%;
-      margin-top: 150%;
+      margin-top: 170%;
      
     }
     .Navigation {
@@ -1201,6 +1203,7 @@ img.imageImage {
       overflow: hidden;
       margin-left: 16px;
       margin-right: 16px;
+      display: none;
     }
 
     .textandCTA {
@@ -1227,6 +1230,8 @@ img.imageImage {
       display: flex;
       flex-direction: column;
       margin-top: 10px;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .website-titles {
@@ -1254,6 +1259,8 @@ img.imageImage {
       display: flex;
       flex-direction: column;
       gap: 8px;
+      padding: 0;
+      width: 100%;
     }
   
     .imageDiv {
@@ -1296,10 +1303,10 @@ img.imageImage {
   .theAbout {
   display: flex;
   justify-content: center;
-  margin-left: 40px;
+  margin-left: 0;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-right: 40px;
+  margin-right: 0;
 }
 
 .skillCard {
@@ -1343,13 +1350,14 @@ img.imageImage {
 .beyondPixellayer {
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #333;
   border-radius: 16px;
   color: white;
   padding: 24px;
-  width: fit-content;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .beyondleft, .beyondright {
@@ -1387,18 +1395,26 @@ img.imageImage {
     }
 
     /* 3. Force all sections to fit inside */
+    .Navigation,
     .hero-section, 
     .top-layer, 
     .bottom-layer, 
     .website-titles, 
     .textandCTA, 
-    .thebuilds, 
     .scroll, 
     .skillCard {
         margin-left: 0 !important;
         margin-right: 0 !important;
         padding-left: 16px !important;
         padding-right: 16px !important;
+        width: 100% !important;
+    }
+
+    .thebuilds {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         width: 100% !important;
     }
 
@@ -1497,6 +1513,74 @@ NJFP Responsive Design. */
 
 .main-hero-interaction-container {
   display: none;
+}
+
+.thebuilds {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.theAbout {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.beyondPixellayer {
+  border-radius: 0;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header-year {
+  margin-bottom: 0;
+}
+
+.image-display {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.the-problem {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.thesolution {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+  padding: 24px;
+}
+
+.new-purple {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.product-scrope {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  height: fit-content;
+  font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.impactAndOutcomes {
+  font-size: 14px;
 }
 
 }
