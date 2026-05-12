@@ -607,7 +607,6 @@ img.imageImage {
 
 .header-year, .slice-description {
   text-align: left;
-  width: 100%;
 }
 
 .header-year {
@@ -1472,8 +1471,8 @@ NJFP Responsive Design. */
  
 .header-year, .year, .slice-description {
   font-size: 14px;
-  width: 100%;
   box-sizing: border-box;
+  margin-right: 16px;
 }
 
 .firstGIF 
@@ -1648,6 +1647,99 @@ NJFP Responsive Design. */
   margin-right: 0;
   width: 100%;
   box-sizing: border-box;
+}
+
+.slice-left {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.slice-description {
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-right: 24px;
+  width: fit-content;
+}
+
+.video-layer {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.purple-scrobbable {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.purple-right {
+  display: none;
+}
+
+.purple-scrobbable {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: none;
+  
+}
+
+.purple-LB {
+  display: none;
+  height: fit-content;
+}
+
+.admin-system {
+  font-size: 14px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.Design-decisions {
+  font-size: 14px;
+  border-radius: 16px;
+  width: 100%;
+  margin: 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+}
+
+.more-content {
+  margin: 0;
+  width: 100%;
+  font-size: 14px;
+
+}
+
+.content-one {
+  margin: 16px;
+}
+
+.video-cards {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 90%;
+}
+
+.keyflows {
+  margin: 0;
+}
+
+.flowpiles {
+  display: none;
+}
+
+.flow-head {
+  margin-left: 16px;
+}
+
+.thelast {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
 }
 
 }
