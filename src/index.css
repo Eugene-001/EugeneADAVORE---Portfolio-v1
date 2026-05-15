@@ -1650,8 +1650,8 @@ NJFP Responsive Design. */
 }
 
 .slice-left {
-  margin-left: 16px;
-  margin-right: 16px;
+  /* margin-left: 16px;
+  margin-right: 16px; */
 }
 
 .slice-description {
