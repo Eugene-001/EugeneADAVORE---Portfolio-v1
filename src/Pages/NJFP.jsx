@@ -21,13 +21,13 @@ function NJFP () {
             </div>
 
             <div className="firstGIF">
-                <img src="/Media/First.gif" alt="" />
+                <img src="/Media/First.gif" alt="" loading="lazy" />
             </div>
 
             <div className="problemAndSolution">
                 <div className="Problembit">
                     <div className="problemImage">
-                        <video src="/Media/oneone.mp4" autoPlay muted></video>
+                        <video src="/Media/oneone.mp4" autoPlay muted preload="metadata"></video>
                     </div>
 
                     <div className="problemText">
@@ -43,7 +43,7 @@ function NJFP () {
 
                 <div className="Problembit">
                     <div className="problemImage">
-                        <video src="/Media/oneone.mp4" autoPlay muted></video>
+                        <video src="/Media/oneone.mp4" autoPlay muted preload="metadata"></video>
                     </div>
 
                     <div className="problemText">
@@ -61,7 +61,7 @@ function NJFP () {
             <div className="problemAndSolution">
                 <div className="Problembit2">
                     <div className="problemImage2">
-                        <img src="/Media/aaa.svg"></img>
+                        <img src="/Media/aaa.svg" alt="" loading="lazy" />
                     </div>
 
                     <div className="problemText2">
@@ -73,7 +73,7 @@ function NJFP () {
 
                 <div className="Problembit2">
                     <div className="problemImage2">
-                        <img src="/Media/aaa.svg"></img>
+                        <img src="/Media/aaa.svg" alt="" loading="lazy" />
                     </div>
 
                     <div className="problemText2">
@@ -99,7 +99,7 @@ For participants, I designed flows that guide them from onboarding through profi
                 </div>
 
                 <div className="howitworks-right">
-                    <img src="/Media/image70.svg" alt="" />
+                    <img src="/Media/image70.svg" alt="" loading="lazy" />
                 </div>
             </div>
 

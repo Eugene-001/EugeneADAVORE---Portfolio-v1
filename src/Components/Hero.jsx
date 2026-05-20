@@ -19,17 +19,17 @@ function Hero () {
 
                     <div id="box" className="container-3">
                         <p className="card-text">WEB APP DEVELOPMENT</p>
-                        <img src="Components/Media/Development.svg" alt="" />
+                        <img src="/Media/Development.svg" alt="" loading="lazy" />
                     </div>
 
                     <div id="box" className="container-2">
                        <p className="card-text"> MOBILE APP DESIGN</p>
-                       <img src="Components/Media/Mobile.svg" alt="" />
+                       <img src="/Media/Mobile.svg" alt="" loading="lazy" />
                     </div>
 
                     <div id="box" className="container-4">
                         <p className="card-text">WEB APP DESIGN</p>
-                        <img src="Components/Media/Webapp.svg" alt="" />
+                        <img src="/Media/Webapp.svg" alt="" loading="lazy" />
                     </div>
                 </div>
             </div>

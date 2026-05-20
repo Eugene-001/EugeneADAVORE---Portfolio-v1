@@ -56,7 +56,7 @@ function CaseStudy() {
                 <Link to="/pages/SliceDetails" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="top-left">
                         <div className="image">
-                            <img src="Media/SLICE.gif" alt="" />
+                            <img src="Media/SLICE.gif" alt="" loading="lazy" />
                         </div>
 
                         <div className="headerAndBody">
@@ -73,7 +73,7 @@ function CaseStudy() {
                 <Link to="/pages/Shelf21Details" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className="top-right">
                     <div className="image">
-                        <img src="Media/Shelf21.gif" alt="" />
+                        <img src="Media/Shelf21.gif" alt="" loading="lazy" />
                     </div>
 
                     <div className="headerAndBody">

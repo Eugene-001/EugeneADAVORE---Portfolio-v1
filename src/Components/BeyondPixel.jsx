@@ -20,7 +20,7 @@ function BeyondPixel () {
             </div>
 
             <div className="bottombeyond">
-                <video src="/Media/designwitheuuu.mp4" autoPlay muted></video>
+                <video src="/Media/designwitheuuu.mp4" autoPlay muted preload="metadata"></video>
             </div>
         </div>
     )

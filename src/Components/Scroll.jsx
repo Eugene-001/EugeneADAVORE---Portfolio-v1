@@ -18,7 +18,7 @@ function Scroll() {
 
                 <div className="firstCase">
                             <div className="caseimage">
-                                <img src="/Media/right3.svg" alt="" />
+                                <img src="/Media/right3.svg" alt="" loading="lazy" />
                             </div>
 
                             <div className="caseText">
@@ -41,7 +41,7 @@ function Scroll() {
 
                 <div className="secondCase">
                         <div className="caseimage2">
-                            <img src="/Media/SLOT..svg" alt="" />
+                            <img src="/Media/SLOT..svg" alt="" loading="lazy" />
                         </div>
 
                         <div className="caseText2">
@@ -60,7 +60,7 @@ function Scroll() {
                 
                 <div className="secondCase">
                         <div className="caseimage2">
-                            <img src="/Media/capstone.svg" alt="" />
+                            <img src="/Media/capstone.svg" alt="" loading="lazy" />
                         </div>
 
                         <div className="caseText2">

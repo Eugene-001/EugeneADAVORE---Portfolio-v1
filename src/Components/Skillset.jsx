@@ -3,7 +3,7 @@ function Skillset() {
         <div className="skillCard">
             <div className="card1">
                 <div className="imagepad">
-                    <img className="imageImage" src="Media/eugene1.jpeg" alt="" />
+                    <img className="imageImage" src="/Media/eugene1.jpeg" alt="" loading="lazy" />
                 </div>
 
                 <div className="CD">
@@ -15,7 +15,7 @@ function Skillset() {
 
             <div className="card1">
                 <div className="imagepad">
-                    <img src="Media/eugene1.png" alt="" />
+                    <img src="/Media/eugene1.png" alt="" loading="lazy" />
                 </div>
 
                 <div className="cardTitle">
@@ -25,7 +25,7 @@ function Skillset() {
 
             <div className="card1">
                 <div className="imagepad">
-                    <img src="Media/eugene2.jpeg" alt="" />
+                    <img src="/Media/eugene2.jpeg" alt="" loading="lazy" />
                 </div>
 
                 <div className="cardTitle">

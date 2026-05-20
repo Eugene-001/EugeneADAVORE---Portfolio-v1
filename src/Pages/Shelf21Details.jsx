@@ -26,16 +26,16 @@ function Shelf21Details() {
 
                 <div className="slice-right">
                     <div className="video-layer">
-                        <video src="/Media/shelf1.mov" autoPlay muted loop />
+                        <video src="/Media/shelf1.mp4" autoPlay muted loop preload="metadata" />
                     </div>
                 </div>
             </div>
         
             <div className="image-display">
-                <img src="/Media/01.svg" alt="" />
-                <img src="/Media/02.svg" alt="" />
-                <img src="/Media/03.svg" alt="" />
-                <img src="/Media/04.svg" alt="" />
+                <img src="/Media/01.svg" alt="" loading="lazy" />
+                <img src="/Media/02.svg" alt="" loading="lazy" />
+                <img src="/Media/03.svg" alt="" loading="lazy" />
+                <img src="/Media/04.svg" alt="" loading="lazy" />
            </div>
 
            <div className="the-problem">
@@ -50,7 +50,7 @@ function Shelf21Details() {
             </div>
 
             <div className="right-problem">
-                <video src="/Media/shelf2.mov" autoPlay muted></video>
+                <video src="/Media/shelf2.mp4" autoPlay muted preload="metadata"></video>
             </div>
            </div>
 
@@ -66,14 +66,14 @@ function Shelf21Details() {
                 </div>
 
                 <div className="solution-right">
-                    <img src="/Media/image 59.svg" alt="" />
+                    <img src="/Media/image-59.svg" alt="" loading="lazy" />
                 </div>
            </div>
 
            <div className="new-purple">
                 <div className="purp-left">
                     <div className="web-img">
-                        <video src="/Media/side.mp4" alt="" autoPlay muted/>
+                        <video src="/Media/side.mp4" alt="" autoPlay muted preload="metadata" />
                     </div>
 
                     <div className="purple-text">
@@ -89,7 +89,7 @@ function Shelf21Details() {
 
                 <div className="purp-right">
                     <div className="web-img">
-                        <video src="/Media/side2.mp4" alt="" autoPlay muted/>
+                        <video src="/Media/side2.mp4" alt="" autoPlay muted preload="metadata" />
                     </div>
 
                     <div className="purple-text">
@@ -129,7 +129,7 @@ function Shelf21Details() {
                 </div>
 
                 <div className="scoperight">
-                    <img src="/Media/scope.svg" alt="" />
+                    <img src="/Media/scope.svg" alt="" loading="lazy" />
                 </div>
            </div>
 
@@ -155,7 +155,7 @@ function Shelf21Details() {
                 </div>
 
                 <div className="addon">
-                    <img src="/Media/ad-on.svg" alt="" />
+                    <img src="/Media/ad-on.svg" alt="" loading="lazy" />
                 </div>
            </div>
 

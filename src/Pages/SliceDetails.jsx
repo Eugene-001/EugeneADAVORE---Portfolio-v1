@@ -24,16 +24,16 @@ function SliceDetails() {
 
             <div className="slice-right">
                 <div className="video-layer">
-                      <video src="/Media/slice1.mov" autoPlay muted loop />
+                      <video src="/Media/slice1.mp4" autoPlay muted loop preload="metadata" />
                 </div>
             </div>
            </div>
 
            <div className="image-display">
-            <img src="/Media/1.svg" alt="" />
-            <img src="/Media/2.svg" alt="" />
-            <img src="/Media/3.svg" alt="" />
-            <img src="/Media/4.svg" alt="" />
+<img src="/Media/1.svg" alt="" loading="lazy" />
+             <img src="/Media/2.svg" alt="" loading="lazy" />
+             <img src="/Media/3.svg" alt="" loading="lazy" />
+             <img src="/Media/4.svg" alt="" loading="lazy" />
            </div>
 
              <div className="top-section">
@@ -53,7 +53,7 @@ function SliceDetails() {
 
                 <div className="slice-new-right">
                     <div className="video-layer">
-                        <video src="/Media/slice2.mov" autoPlay muted loop />
+                        <video src="/Media/slice2.mp4" autoPlay muted loop preload="metadata" />
                     </div>
                 </div>
            </div>
@@ -80,7 +80,7 @@ function SliceDetails() {
             </div>
 
             <div className="purple-right">
-                <img src="/Media/Scroll.svg" alt="" />
+                <img src="/Media/Scroll.svg" alt="" loading="lazy" />
             </div>
            </div>
 
@@ -96,7 +96,7 @@ function SliceDetails() {
                 </div>
 
                 <div className="admin-video">
-                    <video src="/Media/Web.mp4" autoPlay muted loop />
+                    <video src="/Media/Web.mp4" autoPlay muted loop preload="metadata" />
                 </div>
            </div>
 
@@ -199,7 +199,7 @@ These metrics are directly influenced by how clearly opportunities are presented
 
                         <div className="video-cards">
                             <div className="video1">
-                                <video src="/Media/a.mov" autoPlay muted loop ></video>
+                                <video src="/Media/a.mp4" autoPlay muted loop preload="metadata"></video>
 
                                 <div className="inner-text">
                                     <div className="innerheader">
@@ -215,7 +215,7 @@ These metrics are directly influenced by how clearly opportunities are presented
                             </div>
 
                             <div className="video1">
-                                <video src="/Media/b.mov" autoPlay muted loop ></video>
+                                <video src="/Media/b.mp4" autoPlay muted loop preload="metadata"></video>
 
                                 <div className="inner-text">
                                     <div className="innerheader">
@@ -231,7 +231,7 @@ These metrics are directly influenced by how clearly opportunities are presented
                             </div>
 
                             <div className="video1">
-                                <video src="/Media/c.mov" autoPlay muted loop ></video>
+                                <video src="/Media/c.mp4" autoPlay muted loop preload="metadata"></video>
 
                                 <div className="inner-text">
                                     <div className="innerheader">
@@ -247,7 +247,7 @@ These metrics are directly influenced by how clearly opportunities are presented
                             </div>
 
                             <div className="video1">
-                                <video src="/Media/d.mov" autoPlay muted loop ></video>
+                                <video src="/Media/d.mp4" autoPlay muted loop preload="metadata"></video>
 
                                 <div className="inner-text">
                                     <div className="innerheader">

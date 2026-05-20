@@ -7,19 +7,19 @@ function Landingpages () {
            <div className="landingpageVideos">
 
             <div className="landing1">
-                <video src="/Media/newsynthera.mp4" autoPlay muted></video>
+                <video src="/Media/newsynthera.mp4" autoPlay muted preload="metadata"></video>
             </div>
 
             <div className="landing1">
-                <video src="/Media/Flowcheck.mp4" autoPlay muted></video>
+                <video src="/Media/Flowcheck.mp4" autoPlay muted preload="metadata"></video>
             </div>
 
             <div className="landing1">
-                <video src="/Media/pmhelp.mp4" autoPlay muted></video>
+                <video src="/Media/pmhelp.mp4" autoPlay muted preload="metadata"></video>
             </div>
 
             <div className="landing1">
-                <video src="/Media/Ledger.mp4" autoPlay muted></video>
+                <video src="/Media/Ledger.mp4" autoPlay muted preload="metadata"></video>
             </div>
 
            </div>
