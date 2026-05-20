@@ -81,8 +81,6 @@ body {
 }
 
 .mainSLICE {
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .bottom {
@@ -315,7 +313,6 @@ max-width: 100%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  background-color: #fafafa;
   padding-top: 16px 16px;
   box-sizing: border-box;
 }
@@ -386,6 +383,8 @@ img {
   position: sticky;
   top: 40px;
   align-self: flex-start;
+  z-index: 3;
+  background: var(--bg);
 }
 
 .caseimage {
@@ -424,6 +423,14 @@ img {
   position: sticky;
   top: 40px;
   align-self: flex-start;
+}
+
+.right > :nth-child(2) {
+  z-index: 2;
+}
+
+.right > :nth-child(3) {
+  z-index: 1;
 }
 
 .caseimage2 {
@@ -598,7 +605,9 @@ img.imageImage {
 .top-section {
   display: flex;
   justify-content: space-between;
-
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
 }
 
 .slice-left {
