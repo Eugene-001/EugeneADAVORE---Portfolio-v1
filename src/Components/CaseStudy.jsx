@@ -42,7 +42,7 @@ function AutoPlayVideo({ src, poster, className, style }) {
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="auto"
             className={className}
             style={style}
         />
